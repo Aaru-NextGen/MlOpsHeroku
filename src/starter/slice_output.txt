@@ -1,0 +1,424 @@
+Performance on all unique slices on salary data based on workclass
+*****************************************************
+workclass = State-gov
+data size: 1298
+precision: 0.9518413597733711, recall: 0.9518413597733711, fbeta: 0.9518413597733713
+-------------------------------------------------
+workclass = Self-emp-not-inc
+data size: 2541
+precision: 0.9545454545454546, recall: 0.899171270718232, fbeta: 0.9260312944523471
+-------------------------------------------------
+workclass = Private
+data size: 22696
+precision: 0.9481112494811125, recall: 0.920411041708644, fbeta: 0.9340558225130354
+-------------------------------------------------
+workclass = Federal-gov
+data size: 960
+precision: 0.9667590027700831, recall: 0.9407008086253369, fbeta: 0.953551912568306
+-------------------------------------------------
+workclass = Local-gov
+data size: 2093
+precision: 0.9671848013816926, recall: 0.9076175040518638, fbeta: 0.9364548494983277
+-------------------------------------------------
+workclass = ?
+data size: 1836
+precision: 0.9491525423728814, recall: 0.8795811518324608, fbeta: 0.9130434782608695
+-------------------------------------------------
+workclass = Self-emp-inc
+data size: 1116
+precision: 0.9388714733542319, recall: 0.9630225080385852, fbeta: 0.9507936507936509
+-------------------------------------------------
+workclass = Without-pay
+data size: 14
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+workclass = Never-worked
+data size: 7
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+Performance on all unique slices on salary data based on education
+*****************************************************
+education = Bachelors
+data size: 5355
+precision: 0.9536995006808897, recall: 0.9459702836560108, fbeta: 0.9498191681735985
+-------------------------------------------------
+education = HS-grad
+data size: 10501
+precision: 0.9396274887604368, recall: 0.8734328358208955, fbeta: 0.9053217821782178
+-------------------------------------------------
+education = 11th
+data size: 1175
+precision: 1.0, recall: 0.8833333333333333, fbeta: 0.9380530973451328
+-------------------------------------------------
+education = Masters
+data size: 1723
+precision: 0.9633123689727463, recall: 0.9582898852971846, fbeta: 0.9607945635128071
+-------------------------------------------------
+education = 9th
+data size: 514
+precision: 1.0, recall: 0.8518518518518519, fbeta: 0.92
+-------------------------------------------------
+education = Some-college
+data size: 7291
+precision: 0.9334811529933481, recall: 0.9105984138428262, fbeta: 0.9218978102189781
+-------------------------------------------------
+education = Assoc-acdm
+data size: 1067
+precision: 0.9566929133858267, recall: 0.9169811320754717, fbeta: 0.9364161849710981
+-------------------------------------------------
+education = Assoc-voc
+data size: 1382
+precision: 0.9476744186046512, recall: 0.9030470914127424, fbeta: 0.9248226950354609
+-------------------------------------------------
+education = 7th-8th
+data size: 646
+precision: 0.9375, recall: 0.75, fbeta: 0.8333333333333334
+-------------------------------------------------
+education = Doctorate
+data size: 413
+precision: 0.9483870967741935, recall: 0.9607843137254902, fbeta: 0.9545454545454546
+-------------------------------------------------
+education = Prof-school
+data size: 576
+precision: 0.9790209790209791, recall: 0.9929078014184397, fbeta: 0.9859154929577465
+-------------------------------------------------
+education = 5th-6th
+data size: 333
+precision: 1.0, recall: 0.8125, fbeta: 0.896551724137931
+-------------------------------------------------
+education = 10th
+data size: 933
+precision: 1.0, recall: 0.8064516129032258, fbeta: 0.8928571428571428
+-------------------------------------------------
+education = 1st-4th
+data size: 168
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+education = Preschool
+data size: 51
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+education = 12th
+data size: 433
+precision: 1.0, recall: 0.8181818181818182, fbeta: 0.9
+-------------------------------------------------
+Performance on all unique slices on salary data based on marital-status
+*****************************************************
+marital-status = Never-married
+data size: 10683
+precision: 0.9952718676122931, recall: 0.8574338085539714, fbeta: 0.9212253829321663
+-------------------------------------------------
+marital-status = Married-civ-spouse
+data size: 14976
+precision: 0.9453883495145631, recall: 0.931261207411835, fbeta: 0.9382716049382717
+-------------------------------------------------
+marital-status = Divorced
+data size: 4443
+precision: 0.9644549763033176, recall: 0.8790496760259179, fbeta: 0.919774011299435
+-------------------------------------------------
+marital-status = Married-spouse-absent
+data size: 418
+precision: 1.0, recall: 0.8529411764705882, fbeta: 0.9206349206349206
+-------------------------------------------------
+marital-status = Separated
+data size: 1025
+precision: 1.0, recall: 0.9090909090909091, fbeta: 0.9523809523809523
+-------------------------------------------------
+marital-status = Married-AF-spouse
+data size: 23
+precision: 1.0, recall: 0.7, fbeta: 0.8235294117647058
+-------------------------------------------------
+marital-status = Widowed
+data size: 993
+precision: 1.0, recall: 0.8823529411764706, fbeta: 0.9375
+-------------------------------------------------
+Performance on all unique slices on salary data based on occupation
+*****************************************************
+occupation = Adm-clerical
+data size: 3770
+precision: 0.9243027888446215, recall: 0.9151873767258383, fbeta: 0.9197224975222993
+-------------------------------------------------
+occupation = Exec-managerial
+data size: 4066
+precision: 0.9505549949545913, recall: 0.9573170731707317, fbeta: 0.9539240506329114
+-------------------------------------------------
+occupation = Handlers-cleaners
+data size: 1370
+precision: 1.0, recall: 0.7906976744186046, fbeta: 0.8831168831168831
+-------------------------------------------------
+occupation = Prof-specialty
+data size: 4140
+precision: 0.9596730245231607, recall: 0.9472834857450242, fbeta: 0.9534380075798592
+-------------------------------------------------
+occupation = Other-service
+data size: 3295
+precision: 0.9732142857142857, recall: 0.7956204379562044, fbeta: 0.8755020080321285
+-------------------------------------------------
+occupation = Sales
+data size: 3650
+precision: 0.9469214437367304, recall: 0.9074262461851476, fbeta: 0.9267532467532468
+-------------------------------------------------
+occupation = Craft-repair
+data size: 4099
+precision: 0.93505039193729, recall: 0.898815931108719, fbeta: 0.9165751920965972
+-------------------------------------------------
+occupation = Transport-moving
+data size: 1597
+precision: 0.974910394265233, recall: 0.85, fbeta: 0.9081803005008348
+-------------------------------------------------
+occupation = Farming-fishing
+data size: 994
+precision: 0.9801980198019802, recall: 0.8608695652173913, fbeta: 0.9166666666666667
+-------------------------------------------------
+occupation = Machine-op-inspct
+data size: 2002
+precision: 0.9475982532751092, recall: 0.868, fbeta: 0.906054279749478
+-------------------------------------------------
+occupation = Tech-support
+data size: 928
+precision: 0.9399293286219081, recall: 0.9399293286219081, fbeta: 0.9399293286219081
+-------------------------------------------------
+occupation = ?
+data size: 1843
+precision: 0.9491525423728814, recall: 0.8795811518324608, fbeta: 0.9130434782608695
+-------------------------------------------------
+occupation = Protective-serv
+data size: 649
+precision: 0.9556650246305419, recall: 0.919431279620853, fbeta: 0.9371980676328503
+-------------------------------------------------
+occupation = Armed-Forces
+data size: 9
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+occupation = Priv-house-serv
+data size: 149
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+Performance on all unique slices on salary data based on relationship
+*****************************************************
+relationship = Not-in-family
+data size: 8305
+precision: 0.9841059602649007, recall: 0.8679906542056075, fbeta: 0.9224084419615147
+-------------------------------------------------
+relationship = Husband
+data size: 13193
+precision: 0.9452642415923129, recall: 0.930888813788442, fbeta: 0.9380214541120381
+-------------------------------------------------
+relationship = Wife
+data size: 1568
+precision: 0.9443690637720489, recall: 0.934228187919463, fbeta: 0.9392712550607287
+-------------------------------------------------
+relationship = Own-child
+data size: 5068
+precision: 1.0, recall: 0.8955223880597015, fbeta: 0.9448818897637796
+-------------------------------------------------
+relationship = Unmarried
+data size: 3446
+precision: 0.975, recall: 0.8944954128440367, fbeta: 0.9330143540669856
+-------------------------------------------------
+relationship = Other-relative
+data size: 981
+precision: 1.0, recall: 0.7567567567567568, fbeta: 0.8615384615384616
+-------------------------------------------------
+Performance on all unique slices on salary data based on race
+*****************************************************
+race = White
+data size: 27816
+precision: 0.9502458779288401, recall: 0.923141773219053, fbeta: 0.9364977549711354
+-------------------------------------------------
+race = Black
+data size: 3124
+precision: 0.9442970822281167, recall: 0.9198966408268734, fbeta: 0.9319371727748692
+-------------------------------------------------
+race = Asian-Pac-Islander
+data size: 1039
+precision: 0.9692307692307692, recall: 0.9130434782608695, fbeta: 0.9402985074626865
+-------------------------------------------------
+race = Amer-Indian-Eskimo
+data size: 311
+precision: 0.96875, recall: 0.8611111111111112, fbeta: 0.911764705882353
+-------------------------------------------------
+race = Other
+data size: 271
+precision: 0.88, recall: 0.88, fbeta: 0.88
+-------------------------------------------------
+Performance on all unique slices on salary data based on sex
+*****************************************************
+sex = Male
+data size: 21790
+precision: 0.949374903534496, recall: 0.9232963074151906, fbeta: 0.936154021763945
+-------------------------------------------------
+sex = Female
+data size: 10771
+precision: 0.9565987599645704, recall: 0.916030534351145, fbeta: 0.9358752166377816
+-------------------------------------------------
+Performance on all unique slices on salary data based on native-country
+*****************************************************
+native-country = United-States
+data size: 29170
+precision: 0.9510057471264368, recall: 0.9230232882443173, fbeta: 0.9368056046988891
+-------------------------------------------------
+native-country = Cuba
+data size: 95
+precision: 1.0, recall: 0.92, fbeta: 0.9583333333333334
+-------------------------------------------------
+native-country = Jamaica
+data size: 81
+precision: 1.0, recall: 0.9, fbeta: 0.9473684210526316
+-------------------------------------------------
+native-country = India
+data size: 100
+precision: 0.926829268292683, recall: 0.95, fbeta: 0.9382716049382716
+-------------------------------------------------
+native-country = ?
+data size: 583
+precision: 0.9492753623188406, recall: 0.8972602739726028, fbeta: 0.9225352112676057
+-------------------------------------------------
+native-country = Mexico
+data size: 643
+precision: 0.9393939393939394, recall: 0.9393939393939394, fbeta: 0.9393939393939394
+-------------------------------------------------
+native-country = South
+data size: 80
+precision: 0.9333333333333333, recall: 0.875, fbeta: 0.9032258064516129
+-------------------------------------------------
+native-country = Puerto-Rico
+data size: 114
+precision: 0.8461538461538461, recall: 0.9166666666666666, fbeta: 0.8799999999999999
+-------------------------------------------------
+native-country = Honduras
+data size: 13
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+native-country = England
+data size: 90
+precision: 0.9333333333333333, recall: 0.9333333333333333, fbeta: 0.9333333333333333
+-------------------------------------------------
+native-country = Canada
+data size: 121
+precision: 0.875, recall: 0.8974358974358975, fbeta: 0.8860759493670887
+-------------------------------------------------
+native-country = Germany
+data size: 137
+precision: 0.9512195121951219, recall: 0.8863636363636364, fbeta: 0.9176470588235294
+-------------------------------------------------
+native-country = Iran
+data size: 43
+precision: 0.9, recall: 1.0, fbeta: 0.9473684210526316
+-------------------------------------------------
+native-country = Philippines
+data size: 198
+precision: 1.0, recall: 0.8852459016393442, fbeta: 0.9391304347826086
+-------------------------------------------------
+native-country = Italy
+data size: 73
+precision: 1.0, recall: 0.92, fbeta: 0.9583333333333334
+-------------------------------------------------
+native-country = Poland
+data size: 60
+precision: 0.9230769230769231, recall: 1.0, fbeta: 0.9600000000000001
+-------------------------------------------------
+native-country = Columbia
+data size: 59
+precision: 0.6666666666666666, recall: 1.0, fbeta: 0.8
+-------------------------------------------------
+native-country = Cambodia
+data size: 19
+precision: 1.0, recall: 0.7142857142857143, fbeta: 0.8333333333333333
+-------------------------------------------------
+native-country = Thailand
+data size: 18
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+native-country = Ecuador
+data size: 28
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+native-country = Laos
+data size: 18
+precision: 1.0, recall: 0.5, fbeta: 0.6666666666666666
+-------------------------------------------------
+native-country = Taiwan
+data size: 51
+precision: 0.95, recall: 0.95, fbeta: 0.9500000000000001
+-------------------------------------------------
+native-country = Haiti
+data size: 44
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+native-country = Portugal
+data size: 37
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+native-country = Dominican-Republic
+data size: 70
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+native-country = El-Salvador
+data size: 106
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+native-country = France
+data size: 29
+precision: 0.9090909090909091, recall: 0.8333333333333334, fbeta: 0.8695652173913043
+-------------------------------------------------
+native-country = Guatemala
+data size: 64
+precision: 1.0, recall: 0.6666666666666666, fbeta: 0.8
+-------------------------------------------------
+native-country = China
+data size: 75
+precision: 0.95, recall: 0.95, fbeta: 0.9500000000000001
+-------------------------------------------------
+native-country = Japan
+data size: 62
+precision: 0.9545454545454546, recall: 0.875, fbeta: 0.9130434782608695
+-------------------------------------------------
+native-country = Yugoslavia
+data size: 16
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+native-country = Peru
+data size: 31
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+native-country = Outlying-US(Guam-USVI-etc)
+data size: 14
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+native-country = Scotland
+data size: 12
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+native-country = Trinadad&Tobago
+data size: 19
+precision: 0.6666666666666666, recall: 1.0, fbeta: 0.8
+-------------------------------------------------
+native-country = Greece
+data size: 29
+precision: 0.8, recall: 1.0, fbeta: 0.888888888888889
+-------------------------------------------------
+native-country = Nicaragua
+data size: 34
+precision: 0.5, recall: 0.5, fbeta: 0.5
+-------------------------------------------------
+native-country = Vietnam
+data size: 67
+precision: 1.0, recall: 0.8, fbeta: 0.888888888888889
+-------------------------------------------------
+native-country = Hong
+data size: 20
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+native-country = Ireland
+data size: 24
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+native-country = Hungary
+data size: 13
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
+native-country = Holand-Netherlands
+data size: 1
+precision: 1.0, recall: 1.0, fbeta: 1.0
+-------------------------------------------------
