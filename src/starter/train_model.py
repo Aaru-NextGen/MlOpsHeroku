@@ -4,7 +4,7 @@ import pickle
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-from ml import data, model
+import ml
 
 CLEAN_DATA = 'census.csv'
 MODEL_NAME = 'rf_model.pkl'
@@ -34,7 +34,7 @@ cat_features = [
     "native-country",
 ]
 
-X_train, y_train, encoder, lb = data.process_data(
+X_train, y_train, encoder, lb = ml.process_data(
     train, categorical_features=cat_features, label="salary", training=True
 )
 
@@ -42,17 +42,17 @@ pickle_obj(encoder, ENCODER_NAME)
 pickle_obj(lb, LB)
 
 # Train and save a model.
-rf_model = model.train_model(X_train, y_train)
+rf_model = ml.train_model(X_train, y_train)
 
 pickle_obj(rf_model, MODEL_NAME)
 
-X_test, y_test, encoder, lb = data.process_data(
+X_test, y_test, encoder, lb = ml.process_data(
     test, categorical_features=cat_features, label="salary", training=False, encoder=encoder, lb=lb
 )
 
 
-preds = model.inference(rf_model, X_test)
+preds = ml.inference(rf_model, X_test)
 
 print('precision: {}, recall: {}, fbeta: {}'.format(
-    *model.compute_model_metrics(y_test, preds)
+    *ml.compute_model_metrics(y_test, preds)
 ))
