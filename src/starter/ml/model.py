@@ -1,3 +1,4 @@
+import random
 from sklearn.metrics import fbeta_score, precision_score, recall_score
 from sklearn.ensemble import RandomForestClassifier
 
@@ -18,7 +19,7 @@ def train_model(X_train, y_train):
     model
         Trained machine learning model.
     """
-    rf_model = RandomForestClassifier()
+    rf_model = RandomForestClassifier(random_state=random.seed(24))
     rf_model.fit(X_train, y_train)
     return rf_model
 

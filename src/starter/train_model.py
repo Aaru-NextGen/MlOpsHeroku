@@ -21,7 +21,7 @@ def pickle_obj(obj, file_name):
     pickle.dump(obj, open(lb_path, 'wb'))
 
 # Optional enhancement, use K-fold cross validation instead of a train-test split.
-train, test = train_test_split(input_data, test_size=0.20)
+train, test = train_test_split(input_data, test_size=0.20, random_state=24)
 
 cat_features = [
     "workclass",
