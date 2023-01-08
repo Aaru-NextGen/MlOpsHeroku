@@ -34,16 +34,11 @@ def preprocess_request_parameters(request):
 
 @app.get("/")
 async def index():
-    return """
-        Hello User
-        Thank you for visiting
-        Please use /infarance for predictions
-        """
+    return 'Hello User. Thank you for visiting, Please use /infarance for predictions'
 
-@app.get("/inferance")
+@app.post("/inferance")
 async def get_inferance(request: InferanceReq):
     request = preprocess_request_parameters(request) 
-    print(request)
     data = pd.DataFrame.from_dict([request])
 
     cat_features = [
