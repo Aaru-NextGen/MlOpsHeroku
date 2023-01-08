@@ -11,13 +11,13 @@ MODEL_NAME = 'rf_model.pkl'
 ENCODER_NAME = 'encoder.pkl'
 LB = 'lb.pkl'
 
-project_dir = os.path.dirname(__file__)
+project_dir = 'src'
 data_dir = os.path.join(project_dir, 'data')
 model_dir = os.path.join(project_dir, 'model')
 input_data = pd.read_csv(os.path.join(data_dir, CLEAN_DATA))
 
 def pickle_obj(obj, file_name):
-    lb_path = os.path.join(MODEL_NAME, file_name)
+    lb_path = os.path.join(model_dir, file_name)
     pickle.dump(obj, open(lb_path, 'wb'))
 
 # Optional enhancement, use K-fold cross validation instead of a train-test split.
