@@ -1,13 +1,9 @@
 import os
-import pickle
 
 import pandas as pd
 from ml import process_data, compute_model_metrics, inference
-from train_model import data_dir, model_dir, CLEAN_DATA, MODEL_NAME
+from constants import data_dir, CLEAN_DATA, MODEL_NAME, load_pickle
 
-def load_pickle(file_name, dir_path=model_dir):
-    pickle_obj_path = os.path.join(dir_path, file_name)
-    return pickle.load(open(pickle_obj_path, 'rb'))
 
 def slice_metrics(model, data, slice_feature, slice_file, categorical_features=[]):
     """

@@ -5,21 +5,10 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 import ml
+from constants import CLEAN_DATA, MODEL_NAME, ENCODER_NAME, LB, data_dir, pickle_obj, project_dir
 
-CLEAN_DATA = 'census.csv'
-MODEL_NAME = 'rf_model.pkl'
-ENCODER_NAME = 'encoder.pkl'
-LB = 'lb.pkl'
 
-project_dir = 'src'
-data_dir = os.path.join(project_dir, 'data')
-model_dir = os.path.join(project_dir, 'model')
 input_data = pd.read_csv(os.path.join(data_dir, CLEAN_DATA))
-
-def pickle_obj(obj, file_name, dir=model_dir):
-    lb_path = os.path.join(dir, file_name)
-    pickle.dump(obj, open(lb_path, 'wb'))
-
 # Optional enhancement, use K-fold cross validation instead of a train-test split.
 train, test = train_test_split(input_data, test_size=0.20, random_state=24)
 
